@@ -112,17 +112,20 @@ pip install -r requirements.txt
 #### Part 1: Xử lý ảnh (Image Processing)
 
 1. Mở thư mục `notebooks`.
-2. Chạy các file `.ipynb` theo thứ tự đã đánh số.
+2. Chọn kernel chạy cho đúng đường dẫn python của môi trường ảo (venv) đã tạo ở bước trên.
+3. Chạy các file `.ipynb` theo thứ tự đã đánh số.
 
 #### Part 2: Xử lý Tabular (Tabular Processing)
 
 1. Mở thư mục `notebooks`.
-2. Chạy các file `.ipynb` theo thứ tự đã đánh số.
+2. Chọn kernel chạy cho đúng đường dẫn python của môi trường ảo (venv) đã tạo ở bước trên.
+3. Chạy các file `.ipynb` theo thứ tự đã đánh số.
 
 #### Part 3: Xử lý Text (Text Processing)
 
 1. Mở thư mục `notebooks`.
-2. Chạy các file `.ipynb` theo thứ tự đã đánh số.
+2. Chọn kernel chạy cho đúng đường dẫn python của môi trường ảo (venv) đã tạo ở bước trên.
+3. Chạy các file `.ipynb` theo thứ tự đã đánh số.
 
 ## 🔗 Tài nguyên bên ngoài
 
