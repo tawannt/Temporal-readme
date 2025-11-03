@@ -61,11 +61,25 @@ Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn b�
 
 ### Part 3: Dữ liệu Text
 
-* **Tập dữ liệu:** [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-* **Nguồn:** Kaggle
-* **Kích thước:** 50,000 dòng, 2 cột (`review`, `sentiment`)
-* **Mô tả:** Mỗi mẫu gồm một đoạn đánh giá phim (`review`) và nhãn cảm xúc (`positive` hoặc `negative`).
-* **Ứng dụng:** Thường được dùng cho các bài toán *sentiment classification* và nghiên cứu xử lý ngôn ngữ tự nhiên (NLP).
+- **Tên:** [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  
+
+- **Tổng quan:** Tập dữ liệu gồm **50,000 bài đánh giá phim** được thu thập từ trang IMDb, chia đều thành hai nhóm **tích cực (positive)** và **tiêu cực (negative)**. Mỗi mẫu bao gồm một đoạn văn bản đánh giá (review) và nhãn cảm xúc tương ứng.  
+
+- **Phân loại:** Dữ liệu được gán nhãn nhị phân theo cảm xúc của người dùng:  
+
+  - **Positive (Tích cực):** 25,000 mẫu  
+
+  - **Negative (Tiêu cực):** 25,000 mẫu  
+
+- **Cấu trúc:** Tập dữ liệu gồm hai cột chính:  
+
+  - `review`: Nội dung đánh giá phim (chuỗi văn bản tiếng Anh)  
+
+  - `sentiment`: Nhãn cảm xúc (`positive` hoặc `negative`)  
+
+- **Lý do lựa chọn:** Đây là bộ dữ liệu kinh điển trong lĩnh vực **Natural Language Processing (NLP)**, thường dùng để huấn luyện và đánh giá các mô hình **phân loại cảm xúc (sentiment analysis)**.  
+
+  Dữ liệu phong phú về ngữ pháp, cảm xúc và độ dài giúp thử nghiệm nhiều kỹ thuật tiền xử lý văn bản như **tokenization**, **stopword removal**, **lemmatization** và **TF-IDF vectorization**.
 
 ## Hướng dẫn chạy Notebooks
 
