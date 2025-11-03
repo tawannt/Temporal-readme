@@ -59,8 +59,13 @@ Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn b�
 
 ### Part 3: Dữ liệu Text
 
-* **[Tên tập dữ liệu Text]**
-* *[Mô tả chi tiết sẽ được cập nhật...]*
+### Part 3: Dữ liệu Text
+
+* **Tập dữ liệu:** [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+* **Nguồn:** Kaggle
+* **Kích thước:** 50,000 dòng, 2 cột (`review`, `sentiment`)
+* **Mô tả:** Mỗi mẫu gồm một đoạn đánh giá phim (`review`) và nhãn cảm xúc (`positive` hoặc `negative`).
+* **Ứng dụng:** Thường được dùng cho các bài toán *sentiment classification* và nghiên cứu xử lý ngôn ngữ tự nhiên (NLP).
 
 ## Hướng dẫn chạy Notebooks
 
@@ -83,4 +88,38 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+### Hướng dẫn chạy chi tiết
+
+1. Khởi động Jupyter Lab hoặc Jupyter Notebook từ thư mục gốc của dự án:
+   ```bash
+   jupyter lab
+   ```
+
+#### Part 1: Xử lý ảnh (Image Processing)
+
+1. Mở thư mục `notebooks`.
+2. Chạy các file `.ipynb` theo thứ tự đã đánh số.
+
+#### Part 2: Xử lý Tabular (Tabular Processing)
+
+1. Mở thư mục `notebooks`.
+2. Chạy các file `.ipynb` theo thứ tự đã đánh số.
+
+#### Part 3: Xử lý Text (Text Processing)
+
+1. Mở thư mục `notebooks`.
+2. Chạy các file `.ipynb` theo thứ tự đã đánh số.
+
+## 🔗 Tài nguyên bên ngoài
+
+* **Dataset Ảnh:**
+  * Kaggle: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+  * Nguồn gốc: https://data.mendeley.com/datasets/rscbjbr9sj/2
+
+* **Dataset Tabular:**
+  * Kaggle: https://www.kaggle.com/datasets/edisugiarto/unclean-airline-customer-dataset/data
+
+* **Dataset Text:**
+  * Kaggle: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
