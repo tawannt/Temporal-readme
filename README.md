@@ -3,16 +3,16 @@
 
 Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn bị 3 loại dữ liệu khác nhau cho các mô hình học máy và học sâu.
 
-## 👥 Thông tin nhóm
+## Thông tin nhóm
 
 | Tên thành viên | MSSV |
 | :--- | :--- |
-| [Tên thành viên 1] | [MSSV 1] |
-| [Tên thành viên 2] | [MSSV 2] |
-| [Tên thành viên 3] | [MSSV 3] |
+| Nguyễn Thị Khánh Linh | 23127082 |
+| Lê Chí Vỹ | 23127146 |
+| Nguyễn Trần Thiên An | 23127315 |
 | ... | ... |
 
-## 📊 Mô tả tập dữ liệu
+## Mô tả tập dữ liệu
 
 ### Part 1: Dữ liệu ảnh X-quang Ngực (Viêm phổi)
 
@@ -55,3 +55,25 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+## Cấu trúc thư mục
+.
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── image/
+│   │   └── chest_xray/
+│   │       ├── train/
+│   │       ├── test/
+│   │       └── val/
+│   ├── tabular/
+│   │   └── [ten_file_tabular.csv]
+│   └── text/
+│       └── [ten_file_text.csv]
+│
+├── notebooks/
+│   ├── 01_image_preprocessing.ipynb
+│   ├── 02_tabular_preprocessing.ipynb
+│   └── 03_tabular_preprocessing.ipynb
+│
+├── docs/
+│   └── Report.pdf
