@@ -1,7 +1,6 @@
 # Dự án Tiền xử lý và Phân tích Dữ liệu
-# (Ảnh, Tabular, Text)
 
-Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn bị 3 loại dữ liệu khác nhau cho các mô hình học máy và học sâu.
+Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn bị 3 loại dữ liệu khác nhau.
 
 ## Thông tin nhóm
 
@@ -10,7 +9,6 @@ Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn b�
 | Nguyễn Thị Khánh Linh | 23127082 |
 | Lê Chí Vỹ | 23127146 |
 | Nguyễn Trần Thiên An | 23127315 |
-| ... | ... |
 
 ## Mô tả tập dữ liệu
 
@@ -34,7 +32,7 @@ Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn b�
 * **[Tên tập dữ liệu Text]**
 * *[Mô tả chi tiết sẽ được cập nhật...]*
 
-## 🚀 Hướng dẫn chạy Notebooks
+## Hướng dẫn chạy Notebooks
 
 ### 1. Yêu cầu về môi trường
 
@@ -55,25 +53,4 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-## Cấu trúc thư mục
-.
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── image/
-│   │   └── chest_xray/
-│   │       ├── train/
-│   │       ├── test/
-│   │       └── val/
-│   ├── tabular/
-│   │   └── [ten_file_tabular.csv]
-│   └── text/
-│       └── [ten_file_text.csv]
-│
-├── notebooks/
-│   ├── 01_image_preprocessing.ipynb
-│   ├── 02_tabular_preprocessing.ipynb
-│   └── 03_tabular_preprocessing.ipynb
-│
-├── docs/
-│   └── Report.pdf
+
