@@ -59,7 +59,6 @@ Dự án này tập trung vào việc khám phá, tiền xử lý và chuẩn b�
 
 ### Part 3: Dữ liệu Text
 
-### Part 3: Dữ liệu Text
 
 - **Tên:** [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  
 
