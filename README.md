@@ -48,8 +48,10 @@ python -m venv venv
 # Kích hoạt môi trường (Windows)
 .\venv\Scripts\activate
 
-**Bước 2: Cài đặt các thư viện cần thiết**
-pip install -r requirements.txt
-
 # Kích hoạt môi trường (macOS/Linux)
 source venv/bin/activate
+```
+**Bước 2: Cài đặt các thư viện cần thiết**
+```bash
+pip install -r requirements.txt
+```
